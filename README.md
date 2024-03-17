@@ -13,6 +13,8 @@ The Library Management System is a comprehensive tool designed for managing book
 
 ## Project Structure
 The project is organized into several directories, each serving a specific function within the LMS:
+
+```
 .
 ├── management
 │ ├── init.py
@@ -29,6 +31,7 @@ The project is organized into several directories, each serving a specific funct
 │ ├── init.py
 │ └── logger.py
 └── main.py
+```
 
 
 ### management
@@ -51,19 +54,15 @@ The entry point of the application, presenting a menu-driven interface to the us
 ### Prerequisites
 - Python 3.x
 
-### Installation
+### Installation and Running the code
 Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/khanalsuyog8848/Library-Management-System.git
 cd library-management-system
-
-### Running the Application
-To start the Library Management System, run:
-```bash
 python main.py
 
-Follow the on-screen prompts to manage books, users, and checkouts.
+
 
 
 
