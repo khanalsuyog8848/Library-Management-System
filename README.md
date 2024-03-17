@@ -34,12 +34,29 @@ The project is organized into several directories, each serving a specific funct
 ```
 
 
-### Directory Descriptions
-- `management/`: Contains classes for managing books, users, and checkouts.
-- `models/`: Defines the data models for the system.
-- `storage/`: Handles data storage and retrieval.
-- `utils/`: Provides utility functions, such as logging.
-- `main.py`: The entry point of the application, offering a menu-driven interface to users.
+### Components
+#### Management Modules
+- **Book Management (management/book_management.py):** Handles book-related operations, including adding, updating, deleting, and searching for books within the library's database.
+
+- **User Management (management/user_management.py):** Manages user-related tasks, such as adding, updating, and deleting users. Also supports searching for users based on specific criteria.
+
+- **Checkout Management (management/checkout_management.py):** Manages the checkout process, including checking books out to users, checking them in, and listing current checkouts. Ensures that books are marked as available or unavailable as appropriate.
+
+#### Models
+- **Book (models/model.py):** Represents a book with properties like title, author, ISBN, and availability status.
+
+- **User (models/model.py):** Represents a user with properties like name and user ID.
+
+- **Checkout (models/model.py):** Represents a checkout record, including user ID, ISBN of the checked-out book, checkout date, and return date.
+
+#### Storage
+- **Storage Handler (storage/storage.py):** Acts as the intermediary between the management modules and the library database. It performs the actual data handling tasks, such as adding books or users to the database and updating book availability.
+
+#### Utilities
+- **Logger (utils/logger.py):** Provides logging functionality to track operations and changes within the system. Helps in debugging and auditing system use.
+
+#### Main Script
+- **Main (main.py):** The entry point of the application. Provides a command-line interface for interacting with the Library Management System. It initializes the storage handler and management modules and processes user inputs to perform various operations.
 
 
 ## Getting Started
