@@ -34,20 +34,13 @@ The project is organized into several directories, each serving a specific funct
 ```
 
 
-### management
-Contains the logic for managing books, users, and checkouts.
+### Directory Descriptions
+- `management/`: Contains classes for managing books, users, and checkouts.
+- `models/`: Defines the data models for the system.
+- `storage/`: Handles data storage and retrieval.
+- `utils/`: Provides utility functions, such as logging.
+- `main.py`: The entry point of the application, offering a menu-driven interface to users.
 
-### models
-Defines the data models for books, users, and checkouts.
-
-### storage
-Handles data storage, retrieval, and manipulation for the system.
-
-### utils
-Provides utility functions, including logging.
-
-### main.py
-The entry point of the application, presenting a menu-driven interface to the user.
 
 ## Getting Started
 
@@ -60,7 +53,7 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/khanalsuyog8848/Library-Management-System.git
 cd library-management-system
-python main.py
+python main.py```
 
 
 
