@@ -50,10 +50,11 @@ The project is organized into several directories, each serving a specific funct
 ### Installation and Running the code
 Clone the repository to your local machine:
 
-```bash
+```shell
 git clone https://github.com/khanalsuyog8848/Library-Management-System.git
 cd library-management-system
-python main.py```
+python main.py
+```
 
 
 
